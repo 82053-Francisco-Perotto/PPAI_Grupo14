@@ -1,7 +1,6 @@
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.csprojAssemblyReference.cache
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.Form1.resources
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.Properties.Resources.resources
-C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.RegistrarVisita.resources
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.csproj.GenerateResource.cache
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.csproj.CoreCompileInputs.cache
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\bin\Debug\PPAI_Grupo14.exe.config
@@ -9,3 +8,4 @@ C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo1
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\bin\Debug\PPAI_Grupo14.pdb
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.exe
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.pdb
+C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.RegistrarReservaVisitasGuiadas.resources

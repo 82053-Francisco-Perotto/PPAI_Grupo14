@@ -11,86 +11,82 @@ namespace PPAI_Grupo14.Entidades
 		//private List<PublicoDestino> publicoDestino;
 		//private string nombre;
 
-		private List<DetalleExposicion> _detalleExposicion;
-		private DateTime fechaFin;
-		private DateTime fechaFinReplanificada;
-		private DateTime fechaInicio;
-		private DateTime fechaInicioReplanificada;
-		private DateTime horaApertura;
-		private DateTime horaCierre;
-		private TipoExposicion tipoExposicion;
-		private Empleado empleadoCreo;
-		//falta constructor.
+		//private List<DetalleExposicion> _detalleExposicion;
+		//private DateTime fechaFin;
+		//private DateTime fechaFinReplanificada;
+		//private DateTime fechaInicio;
+		//private DateTime fechaInicioReplanificada;
+		//private DateTime horaApertura;
+		//private DateTime horaCierre;
+		//private TipoExposicion tipoExposicion;
+		//private Empleado empleadoCreo;
+		////falta constructor.
 
-		public Exposicion(string nombre)
-		{
-			this.nombre = nombre;
-		}
+		//public Exposicion(string nombre)
+		//{
+		//	this.nombre = nombre;
+		//	this.AgregarDetalleExposicion = _detalleExposicion;
+		//}
 
-		public Exposicion()
-		{
+		//public Exposicion()
+		//{
 
-		}
-		public TipoExposicion TipoExposicion
-		{
-			get => tipoExposicion;
-			set => tipoExposicion = value;
-		}
-		public DateTime HoraCierre
-		{
-			get => horaCierre;
-			set => horaCierre = value;
-		}
-		public DateTime HoraApertura
-		{
-			get => horaApertura;
-			set => hora = value;
-		}
+		//}
+		//public TipoExposicion TipoExposicion
+		//{
+		//	get => tipoExposicion;
+		//	set => tipoExposicion = value;
+		//}
+		//public DateTime HoraCierre
+		//{
+		//	get => horaCierre;
+		//	set => horaCierre = value;
+		//}
+		//public DateTime HoraApertura
+		//{
+		//	get => horaApertura;
+		//	set => horaApertura = value;
+		//}
 
-		public DateTime HoraApertura
-		{
-			get => horaApertura;
-			set => hora = value;
-		}
-		public DateTime FechaInicioReplanificada
-		{
-			get => fechaInicioReplanificada;
-			set => fechaInicioReplanificada = value;
-		}
+		//public DateTime FechaInicioReplanificada
+		//{
+		//	get => fechaInicioReplanificada;
+		//	set => fechaInicioReplanificada = value;
+		//}
 
-		public DateTime FechaInicio
-		{
-			get => fechaInicio;
-			set => fechaInicio = value;
-		}
+		//public DateTime FechaInicio
+		//{
+		//	get => fechaInicio;
+		//	set => fechaInicio = value;
+		//}
 
-		public string Nombre
-		{
-			get => nombre;
-			set => nombre = value; 
-		}
+		//public string Nombre
+		//{
+		//	get => nombre;
+		//	set => nombre = value; 
+		//}
 
-		public DateTime FechaFin
-		{
-			get => fechaFin;
-			set => fechaFin = value;
-		}
-		public DateTime FechaFinReplanificada
-		{
-			get => fechaFinReplanificada;
-			set => fechaFinReplanificada = value;
-		}
-		public void AgregarDetalleExposicion(DetalleExposicion nuevoDetalle)
-		{
-			_detalleExposicion.Add(nuevoDetalle);
-		}
-		//metodo para asegurar el encapsulamiento 
-		public IReadOnlyCollection<DetalleExposicion> DetalleExposiciones
-		{
-			get
-			{
-				return _detalleExposicion.AsReadOnly();
-			}
-		}
+		//public DateTime FechaFin
+		//{
+		//	get => fechaFin;
+		//	set => fechaFin = value;
+		//}
+		//public DateTime FechaFinReplanificada
+		//{
+		//	get => fechaFinReplanificada;
+		//	set => fechaFinReplanificada = value;
+		//}
+		//public void AgregarDetalleExposicion(DetalleExposicion nuevoDetalle)
+		//{
+		//	_detalleExposicion.Add(nuevoDetalle);
+		//}
+		////metodo para asegurar el encapsulamiento 
+		//public IReadOnlyCollection<DetalleExposicion> DetalleExposiciones
+		//{
+		//	get
+		//	{
+		//		return _detalleExposicion.AsReadOnly();
+		//	}
+		//}
 	}
 }

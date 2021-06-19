@@ -13,16 +13,19 @@ namespace PPAI_Grupo14
 		private string nombre;
 		private string telefFijo;
 		private string telefCelular;
-		private string domicilio;
+		private string calle;
+		private int nroCalle;
 		// deberia ser calle y nroCalle 
 
-		public Escuela(string mail, string nombre, string telefFijo, string telefCelular, string domicilio)
+		public Escuela(string mail, string nombre, string telefFijo, string telefCelular, string calle, int nroCalle)
 		{
 			this.mail = mail;
 			this.nombre = nombre;
 			this.telefFijo = telefFijo;
 			this.telefCelular = telefCelular;
-			this.domicilio = domicilio;
+			this.calle = calle;
+			this.nroCalle = nroCalle;
+
 		}
 		public Escuela()
 		{
@@ -53,11 +56,17 @@ namespace PPAI_Grupo14
 			set => telefCelular = value;
 		}
 
-		public string Domicilio
-		{
-			get => domicilio;
-			set => domicilio = value;
-		}
+		public string Calle
+        {
+			get => calle;
+			set => calle = value;
+        }
+
+		public int NroCalle
+        {
+			get => nroCalle;
+			set => nroCalle = value;
+        }
 
 	}
 
