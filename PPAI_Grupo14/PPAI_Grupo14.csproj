@@ -46,14 +46,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\AsignacionVisita.cs" />
+    <Compile Include="Entidades\Cargo.cs" />
+    <Compile Include="Entidades\Deposito.cs" />
+    <Compile Include="Entidades\DetalleExposicion.cs" />
+    <Compile Include="Entidades\DiaSemana.cs" />
+    <Compile Include="Entidades\Empleado.cs" />
+    <Compile Include="Entidades\Escuela.cs" />
+    <Compile Include="Entidades\Exposicion.cs" />
+    <Compile Include="Entidades\GestorReserva.cs" />
+    <Compile Include="Entidades\HorarioEmpleado.cs" />
+    <Compile Include="Entidades\HorarioSede.cs" />
+    <Compile Include="Entidades\Planta.cs" />
+    <Compile Include="Entidades\PublicoDestino.cs" />
+    <Compile Include="Entidades\SectorDeposito.cs" />
+    <Compile Include="Entidades\Sede.cs" />
+    <Compile Include="Entidades\Sesion.cs" />
+    <Compile Include="Entidades\SubColeccion.cs" />
+    <Compile Include="Entidades\Tarifa.cs" />
+    <Compile Include="Entidades\TipoDeEntrada.cs" />
+    <Compile Include="Entidades\TipoExposicion.cs" />
+    <Compile Include="Entidades\TipoVisita.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades\Obra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarVisita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarVisita.Designer.cs">
+      <DependentUpon>RegistrarVisita.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +95,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegistrarVisita.resx">
+      <DependentUpon>RegistrarVisita.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

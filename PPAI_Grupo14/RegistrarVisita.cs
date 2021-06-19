@@ -10,17 +10,15 @@ using System.Windows.Forms;
 
 namespace PPAI_Grupo14
 {
-    public partial class Form1 : Form
+    public partial class RegistrarReservaVisitasGuiadas : Form
     {
-        public Form1()
+        public RegistrarReservaVisitasGuiadas()
         {
             InitializeComponent();
         }
 
-        private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RegistrarVisita_Load(object sender, EventArgs e)
         {
-            RegistrarReservaVisitasGuiadas ventana = new RegistrarReservaVisitasGuiadas();
-            ventana.ShowDialog();
         }
     }
 }
