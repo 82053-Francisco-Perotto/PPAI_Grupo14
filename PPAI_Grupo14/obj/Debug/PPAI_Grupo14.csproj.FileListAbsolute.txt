@@ -9,3 +9,14 @@ C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo1
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.exe
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.pdb
 C:\Users\Francisco\OneDrive\Documents\GitHub\1ra-clase-pav-Franp3000\PPAI_Grupo14\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.RegistrarReservaVisitasGuiadas.resources
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\bin\Debug\PPAI_Grupo14.exe.config
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\bin\Debug\PPAI_Grupo14.exe
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\bin\Debug\PPAI_Grupo14.pdb
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.csprojAssemblyReference.cache
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.Form1.resources
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.Properties.Resources.resources
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.RegistrarReservaVisitasGuiadas.resources
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.csproj.GenerateResource.cache
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.csproj.CoreCompileInputs.cache
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.exe
+C:\Users\m_a_t\OneDrive\Escritorio\Utn\3er año\Diseño de sistemas\2021\PPAI\Implementacion\PPAI_Grupo14\obj\Debug\PPAI_Grupo14.pdb

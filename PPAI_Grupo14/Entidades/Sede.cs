@@ -8,17 +8,17 @@ namespace PPAI_Grupo14.Entidades
 {
 	public class Sede
 	{
-		// 1 .. * composicion 
-		//private List<HorarioSede> horarioSede;
+		//1 .. * composicion 
+		private List<HorarioSede> horarioSede;
 		// 0 a .. * composicion 
-		//private List<Tarifa>  tarifa;
+		private List<Tarifa>  tarifa;
 		//  0 a .. * composicion
 		private List<Exposicion> _exposicion;
 		//  1 a .. * composicion
-		//private List<Planta>planta;
+		private List<Planta>planta;
 		//  0 a .. * composicion
 		//private List<Coleccion> coleccion;
-		//private Deposito deposito;	
+		private Deposito deposito;	
 
 		// private List<Empleado>ººººººººººººººººººººººº empleadoCreo
 		private int cantMaxVisitantes;
