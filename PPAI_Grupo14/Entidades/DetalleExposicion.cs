@@ -18,6 +18,7 @@ namespace PPAI_Grupo14.Entidades
 			this.obra = obra;
 
 		}
+
 		public string LugarAsignado
 		{
 			get => lugarAsignado;

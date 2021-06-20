@@ -130,6 +130,9 @@ namespace PPAI_Grupo14
 
         }
 
-
+        internal static DataTable Obtener_exposiciones(string tipo_visita)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

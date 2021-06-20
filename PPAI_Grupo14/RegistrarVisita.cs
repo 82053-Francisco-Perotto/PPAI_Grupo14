@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace PPAI_Grupo14
 {
-    public partial class RegistrarReservaVisitasGuiadas : Form
+    public partial class btn_confirmar_seleccion : Form
     {
-        public RegistrarReservaVisitasGuiadas()
+        public btn_confirmar_seleccion()
         {
             InitializeComponent();
         }
@@ -165,5 +165,76 @@ namespace PPAI_Grupo14
                 MessageBox.Show("Error");
             }
         }
+
+        //Paso 10
+
+        public List<Exposicion> exposiciones = new List<Exposicion>();
+
+        private void btn_get_expo_Click(object sender, EventArgs e)
+        {
+            Buscar_exposicion(exposiciones, txtTipoVisitaSeleccionada.Text);
+            Mostrar_exposicion(exposiciones);
+        }
+
+        private void Buscar_exposicion(List<Exposicion> lista_expo, string tipo_visita)
+        {
+            try
+            {
+                DataTable exposicion = AccesoADatos.Obtener_exposiciones(tipo_visita);
+
+                for (int i = 0; i < exposicion.Rows.Count; i++)
+                {
+                    Exposicion nuevaExpo = new Exposicion();
+                    nuevaExpo.Nombre = exposicion.Rows[i]["nombre"].ToString();
+                    // names.Split(',').ToList();
+                    //nuevaExpo.PublicosDestino = exposicion.Rows[i]["descripcion"];
+                    nuevaExpo.HoraApertura = DateTime.Parse(exposicion.Rows[i]["horaApertura"].ToString());
+                    nuevaExpo.HoraCierre = DateTime.Parse(exposicion.Rows[i]["horaCierre"].ToString());
+                    lista_expo.Add(nuevaExpo);
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private void Mostrar_exposicion(List<Exposicion> lista_expo)
+        {
+            for (int i = 0; i < lista_expo.Count; i++)
+            {
+                grilla_expo.Rows.Add(lista_expo[i].Nombre);
+                grilla_expo.Rows.Add(lista_expo[i].PublicosDestino);
+                grilla_expo.Rows.Add(lista_expo[i].HoraApertura);
+                grilla_expo.Rows.Add(lista_expo[i].HoraCierre);
+            }
+        }
+
+        // PASO 11 FALTA HACER
+
+        private void btn_confirmar_expos_Click(object sender, EventArgs e)
+        {
+            if (grilla_expo.SelectedRows.Count > 0)
+            {
+                List<Exposicion> lista_expo_seleccionadas = new List<Exposicion>();
+                // grilla_expo.SelectedRow[NombreExposicion]
+
+            }
+            else
+            {
+                MessageBox.Show("Por favor seleccione uno o mas elementos");
+            }
+        }
+
+        // PASO 14 
+
+
+
+        // PASO 15
+        private void btn_calcular_duracion_Click(object sender, EventArgs e)
+        {
+        }
+
+        
     }
 }

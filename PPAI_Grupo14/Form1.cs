@@ -19,7 +19,7 @@ namespace PPAI_Grupo14
 
         private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RegistrarReservaVisitasGuiadas ventana = new RegistrarReservaVisitasGuiadas();
+            btn_confirmar_seleccion ventana = new btn_confirmar_seleccion();
             ventana.ShowDialog();
         }
     }

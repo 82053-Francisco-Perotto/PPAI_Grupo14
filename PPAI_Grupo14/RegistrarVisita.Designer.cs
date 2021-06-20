@@ -1,7 +1,7 @@
 ﻿
 namespace PPAI_Grupo14
 {
-    partial class RegistrarReservaVisitasGuiadas
+    partial class btn_confirmar_seleccion
     {
         /// <summary>
         /// Required designer variable.
@@ -46,9 +46,23 @@ namespace PPAI_Grupo14
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label7 = new System.Windows.Forms.Label();
             this.txtTipoVisitaSeleccionada = new System.Windows.Forms.TextBox();
+            this.grilla_expo = new System.Windows.Forms.DataGridView();
+            this.NombreExposicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NombrePublicoDestino = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HoraApertura = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HoraCierre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Agregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_get_expo = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.btn_calcular_duracion = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btn_confirmar_expos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grillaEscuelas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grillaSede)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grillaTipoVisitas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grilla_expo)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -198,11 +212,122 @@ namespace PPAI_Grupo14
             this.txtTipoVisitaSeleccionada.Size = new System.Drawing.Size(167, 20);
             this.txtTipoVisitaSeleccionada.TabIndex = 15;
             // 
-            // RegistrarReservaVisitasGuiadas
+            // grilla_expo
+            // 
+            this.grilla_expo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grilla_expo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NombreExposicion,
+            this.NombrePublicoDestino,
+            this.HoraApertura,
+            this.HoraCierre,
+            this.Agregada});
+            this.grilla_expo.Location = new System.Drawing.Point(529, 38);
+            this.grilla_expo.Name = "grilla_expo";
+            this.grilla_expo.Size = new System.Drawing.Size(546, 174);
+            this.grilla_expo.TabIndex = 17;
+            // 
+            // NombreExposicion
+            // 
+            this.NombreExposicion.HeaderText = "Nombre de exposicion";
+            this.NombreExposicion.Name = "NombreExposicion";
+            // 
+            // NombrePublicoDestino
+            // 
+            this.NombrePublicoDestino.HeaderText = "Publico destino";
+            this.NombrePublicoDestino.Name = "NombrePublicoDestino";
+            // 
+            // HoraApertura
+            // 
+            this.HoraApertura.HeaderText = "Hora de apertura";
+            this.HoraApertura.Name = "HoraApertura";
+            // 
+            // HoraCierre
+            // 
+            this.HoraCierre.HeaderText = "Hora de cierre";
+            this.HoraCierre.Name = "HoraCierre";
+            // 
+            // Agregada
+            // 
+            this.Agregada.HeaderText = "Agregada";
+            this.Agregada.Name = "Agregada";
+            // 
+            // btn_get_expo
+            // 
+            this.btn_get_expo.Location = new System.Drawing.Point(529, 9);
+            this.btn_get_expo.Name = "btn_get_expo";
+            this.btn_get_expo.Size = new System.Drawing.Size(110, 23);
+            this.btn_get_expo.TabIndex = 18;
+            this.btn_get_expo.Text = "Buscar exposicion";
+            this.btn_get_expo.UseVisualStyleBackColor = true;
+            this.btn_get_expo.Click += new System.EventHandler(this.btn_get_expo_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(526, 327);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 13);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Fecha y hora de la reserva:";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(679, 324);
+            this.maskedTextBox1.Mask = "00/00/0000 00:00";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.maskedTextBox1.TabIndex = 20;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // btn_calcular_duracion
+            // 
+            this.btn_calcular_duracion.Location = new System.Drawing.Point(813, 322);
+            this.btn_calcular_duracion.Name = "btn_calcular_duracion";
+            this.btn_calcular_duracion.Size = new System.Drawing.Size(170, 23);
+            this.btn_calcular_duracion.TabIndex = 21;
+            this.btn_calcular_duracion.Text = "Calcular duracion de la reserva";
+            this.btn_calcular_duracion.UseVisualStyleBackColor = true;
+            this.btn_calcular_duracion.Click += new System.EventHandler(this.btn_calcular_duracion_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(679, 361);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 22;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(609, 364);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 13);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "Duracion:";
+            // 
+            // btn_confirmar_expos
+            // 
+            this.btn_confirmar_expos.Location = new System.Drawing.Point(950, 228);
+            this.btn_confirmar_expos.Name = "btn_confirmar_expos";
+            this.btn_confirmar_expos.Size = new System.Drawing.Size(125, 23);
+            this.btn_confirmar_expos.TabIndex = 24;
+            this.btn_confirmar_expos.Text = "Confirmar Seleccion";
+            this.btn_confirmar_expos.UseVisualStyleBackColor = true;
+            this.btn_confirmar_expos.Click += new System.EventHandler(this.btn_confirmar_expos_Click);
+            // 
+            // btn_confirmar_seleccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1126, 839);
+            this.ClientSize = new System.Drawing.Size(1126, 814);
+            this.Controls.Add(this.btn_confirmar_expos);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_calcular_duracion);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.btn_get_expo);
+            this.Controls.Add(this.grilla_expo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtTipoVisitaSeleccionada);
             this.Controls.Add(this.grillaTipoVisitas);
@@ -218,13 +343,14 @@ namespace PPAI_Grupo14
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Name = "RegistrarReservaVisitasGuiadas";
+            this.Name = "btn_confirmar_seleccion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Visita";
             this.Load += new System.EventHandler(this.RegistrarVisita_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grillaEscuelas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grillaSede)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grillaTipoVisitas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grilla_expo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,5 +375,18 @@ namespace PPAI_Grupo14
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTipoVisitaSeleccionada;
+        private System.Windows.Forms.DataGridView grilla_expo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NombreExposicion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NombrePublicoDestino;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoraApertura;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoraCierre;
+        private System.Windows.Forms.Button btn_get_expo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Agregada;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Button btn_calcular_duracion;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btn_confirmar_expos;
     }
 }
