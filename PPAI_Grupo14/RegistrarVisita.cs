@@ -210,15 +210,26 @@ namespace PPAI_Grupo14
             }
         }
 
-        // PASO 11 FALTA HACER
+        // PASO 11 ARREGLAR
 
-        private void btn_confirmar_expos_Click(object sender, EventArgs e)
+        List<Exposicion> lista_expo_selecc = new List<Exposicion>();
+
+        private void btn_confirmar_expos_Click(object sender, DataGridViewCellEventArgs e)
         {
             if (grilla_expo.SelectedRows.Count > 0)
             {
-                List<Exposicion> lista_expo_seleccionadas = new List<Exposicion>();
-                // grilla_expo.SelectedRow[NombreExposicion]
-
+                foreach (int index in grilla_expo.SelectedRows) 
+                {
+                    // grilla_expo.SelectedRow[NombreExposicion]
+                    int indice = e.RowIndex;
+                    DataGridViewRow selectedRow = grilla_expo.Rows[indice];
+                    Exposicion expo_selecc = new Exposicion();
+                    expo_selecc.Nombre = selectedRow.Cells[0].Value.ToString();
+                    // expo_selecc.PublicosDestino = selectedRow.Cells[1].Value.ToString();
+                    expo_selecc.HoraApertura = DateTime.Parse(selectedRow.Cells[2].Value.ToString());
+                    expo_selecc.HoraCierre = DateTime.Parse(selectedRow.Cells[3].Value.ToString());
+                    lista_expo_selecc.Add(expo_selecc);
+                }
             }
             else
             {
@@ -227,14 +238,15 @@ namespace PPAI_Grupo14
         }
 
         // PASO 14 
-
-
-
-        // PASO 15
         private void btn_calcular_duracion_Click(object sender, EventArgs e)
         {
+            DateTime tiempo_calculado = AccesoADatos.Calcular_duracion(lista_expo_selecc);
+            txt_duracion_total.Text = tiempo_calculado.ToString();
         }
 
-        
+        // PASO 15
+
+
+
     }
 }

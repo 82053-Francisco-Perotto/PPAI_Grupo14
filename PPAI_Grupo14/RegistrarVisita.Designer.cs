@@ -56,7 +56,7 @@ namespace PPAI_Grupo14
             this.label8 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.btn_calcular_duracion = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_duracion_total = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btn_confirmar_expos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grillaEscuelas)).BeginInit();
@@ -289,12 +289,13 @@ namespace PPAI_Grupo14
             this.btn_calcular_duracion.UseVisualStyleBackColor = true;
             this.btn_calcular_duracion.Click += new System.EventHandler(this.btn_calcular_duracion_Click);
             // 
-            // textBox1
+            // txt_duracion_total
             // 
-            this.textBox1.Location = new System.Drawing.Point(679, 361);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 22;
+            this.txt_duracion_total.Enabled = false;
+            this.txt_duracion_total.Location = new System.Drawing.Point(679, 361);
+            this.txt_duracion_total.Name = "txt_duracion_total";
+            this.txt_duracion_total.Size = new System.Drawing.Size(100, 20);
+            this.txt_duracion_total.TabIndex = 22;
             // 
             // label9
             // 
@@ -313,7 +314,6 @@ namespace PPAI_Grupo14
             this.btn_confirmar_expos.TabIndex = 24;
             this.btn_confirmar_expos.Text = "Confirmar Seleccion";
             this.btn_confirmar_expos.UseVisualStyleBackColor = true;
-            this.btn_confirmar_expos.Click += new System.EventHandler(this.btn_confirmar_expos_Click);
             // 
             // btn_confirmar_seleccion
             // 
@@ -322,7 +322,7 @@ namespace PPAI_Grupo14
             this.ClientSize = new System.Drawing.Size(1126, 814);
             this.Controls.Add(this.btn_confirmar_expos);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_duracion_total);
             this.Controls.Add(this.btn_calcular_duracion);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label8);
@@ -385,7 +385,7 @@ namespace PPAI_Grupo14
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Button btn_calcular_duracion;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_duracion_total;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btn_confirmar_expos;
     }

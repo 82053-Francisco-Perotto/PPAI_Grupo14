@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PPAI_Grupo14.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -132,6 +133,14 @@ namespace PPAI_Grupo14
 
         internal static DataTable Obtener_exposiciones(string tipo_visita)
         {
+            // Selecciona todas las exposiciones que tengan el tipo de visita "tipo visita"
+            throw new NotImplementedException();
+        }
+
+        internal static DateTime Calcular_duracion(List<Exposicion> lista_expo_selecc)
+        {
+            // Por cada exposicion de la lista va al detalleExposicion y desde ahi a la/s obra/s que tiene asignada y obtiene la suma de sus duraciones.
+            // DEVUELVE UN SOLO TIEMPO TOTAL
             throw new NotImplementedException();
         }
     }
